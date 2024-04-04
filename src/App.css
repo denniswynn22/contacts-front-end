@@ -1,0 +1,32 @@
+/* Improved CSS for .contactCard */
+
+.contactCard {
+  /* Adding a subtle box shadow for depth */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* Adding a background color */
+  background-color: #fff;
+  /* Adding padding for better spacing */
+  padding: 20px;
+  /* Adding border radius for rounded corners */
+  border-radius: 10px;
+  /* Adding margin for spacing between cards */
+  margin: 20px;
+  /* Adding transition for smooth hover effect */
+  transition: box-shadow 0.3s ease;
+}
+
+/* Adjusting hover effect */
+.contactCard:hover {
+  /* Changing box shadow color for more emphasis */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Centering text and inputs */
+.contactCard h3, .contactCard p, .contactCard input {
+  text-align: center;
+}
+
+/* Adding some spacing between elements */
+.contactCard h3, .contactCard p {
+  margin-bottom: 10px;
+}
